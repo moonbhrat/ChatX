@@ -34,7 +34,7 @@ function ChatWindow() {
 
         try {
             const response = await fetch(
-                `${import.meta.env.NEXT_PUBLIC_VITE_API_URL}/api/chat`,
+                `${import.meta.env.VITE_API_URL}/api/chat`,
                 options
             );
             const res = await response.json()
