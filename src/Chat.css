@@ -1,0 +1,57 @@
+.chats {
+    max-width: 700px;
+    overflow-y: scroll;
+    padding: 8rem;
+
+    /* Firefox scrollbar color */
+    scrollbar-width: thin;
+    scrollbar-color: #000 #212121; /* thumb color, track color */
+}
+
+/* Chrome, Edge, Safari ke liye */
+.chats::-webkit-scrollbar {
+    width: 8px; /* slider ka size */
+}
+
+.chats::-webkit-scrollbar-track {
+    background: #212121; /* track background */
+}
+
+.chats::-webkit-scrollbar-thumb {
+    background-color: #000; /* slider ka black color */
+    border-radius: 4px;
+}
+
+.chats::-webkit-scrollbar-thumb:hover {
+    background-color: #111; /* hover pe thoda light black */
+}
+
+
+.userDiv {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9rem;
+}
+
+
+.gptDiv {
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+.userMessage {
+    background-color: #323232;
+    padding: 10px 20px;
+    border-radius: 14px;
+    margin-left: 15rem;
+    max-width: 500px;
+    width: fit-content;
+}
+
+.hljs {
+    border-radius: 14px !important;
+}
+
+pre {
+    white-space: pre-wrap;
+}
